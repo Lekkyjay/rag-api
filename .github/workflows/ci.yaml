@@ -34,7 +34,7 @@ jobs:
       #     enable-cache: true
 
       - name: Rebuild embeddings
-        run: python embed.py
+        run: uv run embed.py
 
       - name: Start API in mock mode
         run: |
